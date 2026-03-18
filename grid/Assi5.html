@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Card Grid</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card h3 {
+            margin: 0 0 10px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-container">
+
+        <div class="card">
+            <img src="../4.jpg" alt="">
+            <div class="card-content">
+                <h3>Car 1</h3>
+               <p>A car is a four-wheeled vehicle used for transportation. It runs mainly on petrol, diesel, electricity, or gas. Cars are used to carry people from one place to another safely and comfortably.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../3.jpg" alt="">
+            <div class="card-content">
+                <h3>Car 2</h3>
+               <p>A car is a four-wheeled vehicle used for transportation. It runs mainly on petrol, diesel, electricity, or gas. Cars are used to carry people from one place to another safely and comfortably.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../2.jpg" alt="">
+            <div class="card-content">
+                <h3>Car 3</h3>
+                <p>A car is a four-wheeled vehicle used for transportation. It runs mainly on petrol, diesel, electricity, or gas. Cars are used to carry people from one place to another safely and comfortably.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../1.jpg" alt="">
+            <div class="card-content">
+                <h3>Car 4</h3>
+                <p>A car is a four-wheeled vehicle used for transportation. It runs mainly on petrol, diesel, electricity, or gas. Cars are used to carry people from one place to another safely and comfortably.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

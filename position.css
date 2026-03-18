@@ -1,0 +1,32 @@
+h1{
+    color:white;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+h6{
+    color: white;
+}
+.page{
+    background-color: rgb(243, 247, 245);
+    text-align: center;
+    background-image:url("images.jpg");
+   
+
+  
+}
+.learnbutton{
+    border-radius: 5px; 
+     color: white;
+    border-style:none;
+    background-color: rgb(101, 97, 97);
+    
+   
+
+}
+.getstarted{
+    border-radius: 5px;
+    background-color: rgb(25, 176, 171);
+    color: white;
+    border-style: none;
+    
+}
